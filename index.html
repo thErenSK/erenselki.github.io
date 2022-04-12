@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol</title>
+</head>
+<body>
+    <form>
+       <label for="name">İsim</label> <br>
+       <input type="text" id="name" name="name" placeholder="İsim"> <br>
+        <hr>
+       <label for="surname">Soy İsim</label> <br>
+       <input type="text" id="surname" name="surname" placeholder="Soy İsim"> <br>
+        <hr>
+       <label for="email">E-Mail</label><br>
+       <input type="email" id="email" name="email" placeholder="E-Mail"> <br>
+       
+       <hr>
+        <label for="password">Şifre</label><br>
+       <input type="password" id="password" name="password" placeholder="Şifre"> <br> 
+       <hr>
+       <label for="date">Doğum Tarihi</label> <br>
+       <input type="date" name="date" id="date" placeholder="Doğum Tarihi"> <br>
+        <hr>
+       Cinsiyet <br>
+       Erkek 
+       <input type="radio" name="cinsiyet" value="Erkek">
+       Kadın
+       <input type="radio" name="cinsiyet" value="Kadın">
+       Diğer
+       <input type="radio" name="cinsiyet" value="Diğer"> <br> <hr>
+       Hobiler; <br>
+       Teknoloji
+       <input type="checkbox" name="Teknoloji" id="tech">
+       Müzik
+       <input type="checkbox" name="Müzik" id="music">
+        Resim
+        <input type="checkbox" name="resim"  id="art"> <br> <hr>
+        Konum <br>
+        <select name="Konum" id="konum">
+            <option value="İstanbul">İstanbul</option>
+            <option value="İzmir">İzmir</option>
+            <option value="Ankara">Ankara</option>
+            <option value="Kayseri">Kayseri</option>
+            <option value="Diğer">Diğer</option>
+            <option value="Bir Konum Seçiniz" selected>Bir Konum Seçiniz</option>
+        </select> <br> <hr>
+        <textarea name="Mesaj" id="Mesaj" cols="30" rows="6" placeholder="Bir mesaj yazın"></textarea> <br>
+       <button type="reset">Sıfırla</button>
+       <input type="submit" value="Gönder">
+       
+
+
+
+    </form>
+</body>
+</html>
